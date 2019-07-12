@@ -18,7 +18,7 @@
   "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sencha/node-weak.git"
+    "url": "git://github.com/TooTallNate/node-weak.git"
   },
   "main": "lib/weak.js",
   "scripts": {
