@@ -18,17 +18,14 @@
   "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sencha/node-weak.git"
+    "url": "git://github.com/TooTallNate/node-weak.git"
   },
   "main": "lib/weak.js",
   "scripts": {
-    "test": "mocha -gc --reporter spec",
-    "install": "echo",
-    "electron": "node-gyp rebuild --runtime=electron --target=1.4.4 --disturl=https://atom.io/download/atom-shell --build-from-source",
-    "build": "node-gyp rebuild"
+    "test": "mocha -gc --reporter spec"
   },
   "dependencies": {
-    "bindings": "https://github.com/CelestialSystem/node-bindings.git#find-by-abi",
+    "bindings": "^1.2.1",
     "nan": "^2.0.5"
   },
   "devDependencies": {
